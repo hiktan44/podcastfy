@@ -1,0 +1,27 @@
+# API Keys
+openai:
+  api_key: "your-openai-api-key"
+
+# Optional API Keys
+google:
+  api_key: "your-google-api-key"  # Optional
+elevenlabs:
+  api_key: "your-elevenlabs-api-key"  # Optional
+azure:
+  api_key: "your-azure-api-key"  # Optional
+
+# Default Settings
+defaults:
+  language: "en"  # Default language
+  tts_provider: "openai"  # Default TTS provider (openai, google, elevenlabs, edge)
+  llm_provider: "openai"  # Default LLM provider
+  style: "conversational"  # Default conversation style
+  max_tokens: 4000  # Default max tokens for LLM
+  temperature: 0.7  # Default temperature for LLM
+
+# Conversation Settings
+conversation:
+  format: "dialogue"  # dialogue or monologue
+  speakers: 2  # Number of speakers
+  speaking_style: "friendly"  # Speaking style (friendly, professional, casual)
+  include_citations: true  # Include source citations in conversation
